@@ -1,0 +1,36 @@
+body {
+	text-align:center;
+	width:100%;
+}
+body,h1,h2,h3 {
+	margin:0;
+	padding:0;
+}
+p {padding-bottom:10px;}
+.container {
+	margin:0 auto;
+	width:900px;
+	text-align:center;
+}
+a, a:link, a:visited, a:active {
+	text-decoration:none;
+	font-weight:bold;
+	color:#f00;
+}
+a:hover {color:#00f;}
+.announcement {
+	background-color:#fa0;
+	color:white;
+	font-weight:bold;
+	padding-left:30px;
+	padding-right:30px;
+}
+.announcement a {color:#000;}
+.announcement a:hover {color:#955;}
+h2 a {visibility:hidden;}
+h2:hover a {visibility:visible;}
+.feed {
+	margin-left: 3px;
+	padding: 0 0 0 19px;
+	background: url("feed-icon-14x14.png") no-repeat 0 50%;
+}
